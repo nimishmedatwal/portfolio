@@ -13,11 +13,15 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient"/>
         </div>
         <div>
-          <h1 className>
-            Hi, I'm <span> Nimish </span>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I'm <span className="text-[#915eff]"> Nimish </span>
           </h1>
+          <p className={`${styles.heroSubText}`}>
+            a full stack developer
+          </p>
         </div>
       </div>
+        <ComputersCanvas/>
     </section>
   );
 };
