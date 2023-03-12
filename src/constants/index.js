@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  mlsc,
+  codingninja,
+  microsoft,
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +41,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: creator,
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: web,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Blockchain Developer",
+    icon: mobile,
   },
+  {
+    title: "Android Developer",
+    icon: backend,
+  },
+
 ];
 
 const technologies = [
@@ -79,10 +79,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -116,57 +112,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Microsoft Certified: Azure fundamentals",
+    company_name: "Microsoft Azure",
+    icon: microsoft,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "July 2022",
+    link:"https://www.credly.com/badges/4dc2c9a0-477f-4bae-a38d-54549196fdba?source=linked_in_profile",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Best First year hack",
+    company_name: "Microsoft Student Learn Chapter",
+    icon: mlsc,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "April 2022",
+    link:"https://drive.google.com/file/d/1s4NfDDLQnfXC1wuxvvIcIpt9t67UmrUC/view?usp=sharing",
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Excellence in C++",
+    company_name: "Coding Ninja",
+    icon: codingninja,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "Jan 2022",
+    link:"http://files.codingninjas.in/certificate200229381f2b2bf6cb4dea6d88a60f9bedc9410.pdf",
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
