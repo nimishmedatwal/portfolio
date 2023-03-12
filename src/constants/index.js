@@ -138,38 +138,12 @@ const experiences = [
 
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "BEML Connect",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Made a GUI based application which collects the data in an encrypted manner using a RSA cypher system that is collected by simple mobile application using a pseudo-network.This data is sent to cloud database hosted on Azure and can be decrypted by the central server.",
     tags: [
       {
         name: "react",
@@ -185,50 +159,54 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nimishmedatwal/Makeathon-Submisson",
   },
   {
-    name: "Job IT",
+    name: "ccExtractStoreSearch",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ccExtractStoreSearch is a website on which video(s) can be uploaded, processed and then searched using the subtitles in that video as keywords.",
     tags: [
       {
-        name: "react",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "AWS S3",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Boto3",
         color: "pink-text-gradient",
+      },
+      {
+        name: "AWS DynamoDb",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nimishmedatwal/ccExtractStoreSearch",
   },
   {
-    name: "Trip Guide",
+    name: "Amogh Foundation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Amogh foundation is a NGO To help under privileged children with life threatening diseases lead a healthy and better life. I designed and developed their website This NGO was Founded in 2021 under Trust Act 1882 – Regn No 1098 / 13.10.21 / UP",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Js",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nimishmedatwal/Amogh_foundation",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
