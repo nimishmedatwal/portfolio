@@ -47,7 +47,7 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = () => {
+const Certificates = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -73,4 +73,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Certificates, "certificates");
