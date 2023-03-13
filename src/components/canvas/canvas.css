@@ -1,6 +1,7 @@
 @media screen and (max-width: 533px) {
     .nodisplay {
         display:none ;
+        height: 0px;
     }
 }
     
