@@ -60,6 +60,7 @@ const AstroCanvas = () => {
       dpr={[1, 2]}
       camera={{ position: [-20, 13, 15], fov: 15 }}
       gl={{ preserveDrawingBuffer: true }}
+      className={`${isMobile?'none':''}}`}
       
     >
       <Suspense fallback={<CanvasLoader />}>
