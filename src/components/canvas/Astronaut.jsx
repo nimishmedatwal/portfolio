@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
+import "./canvas.css"
 import CanvasLoader from "../Loader";
 
 const Astro = ({ isMobile }) => {
@@ -60,7 +60,7 @@ const AstroCanvas = () => {
       dpr={[1, 2]}
       camera={{ position: [-20, 13, 15], fov: 15 }}
       gl={{ preserveDrawingBuffer: true }}
-      className={`${isMobile?'none':''}}`}
+      className="nodisplay"
       
     >
       <Suspense fallback={<CanvasLoader />}>

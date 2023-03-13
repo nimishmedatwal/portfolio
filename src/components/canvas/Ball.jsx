@@ -7,7 +7,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-
+import "./canvas.css"
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
@@ -43,6 +43,7 @@ const BallCanvas = ({ icon }) => {
       frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      className="nodisplay"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
