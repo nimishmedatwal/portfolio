@@ -70,3 +70,8 @@
         margin-bottom: 2rem;
     }
 }
+@media screen and (max-width:679px){
+    .middle2{
+        margin-bottom: 2rem;
+    }
+}
