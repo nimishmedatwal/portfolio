@@ -137,25 +137,25 @@ const Contact = () => {
       >
         <div className="flex flex-row justify-center gap-10 mobile:mb-10 mobile:gap-3">
           <div>
-            <a class="btn" href="#">
+            <a class="btn" href="https://github.com/nimishmedatwal" target="_blank">
               <i class="fab fa-github"></i>
             </a>
             <p>Github</p>
           </div>
           <div>
-            <a class="btn" href="#">
+            <a class="btn" href="https://www.linkedin.com/in/nimishmedatwal/" target="_blank">
               <i class="fab fa-linkedin"></i>
             </a>
             <p>LinkedIn</p>
           </div>
           <div>
-            <a class="btn" href="#">
+            <a class="btn" href="mailto:medatwalnimish@gmail.com" target="_blank">
               <i class="fab fa-google"></i>
             </a>
             <p>Gmail</p>
           </div>
           <div>
-            <a class="btn" href="#">
+            <a class="btn" href="https://drive.google.com/file/d/12OQ22QPYOZ3hbO5tLMy5Wg8rH0PAEBAt/view?usp=sharing" target="_blank">
               <i class="	far fa-file-alt"></i>
             </a>
             <p>Resume</p>
