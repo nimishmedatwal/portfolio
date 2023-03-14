@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
-    screens: {
-      'mobile': {'max': '639px'},
-    },
     extend: {
       colors: {
         primary: "#050816",

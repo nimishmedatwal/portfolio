@@ -135,7 +135,7 @@ const Contact = () => {
         variants={slideIn("up", "tween", 0.2, 1)}
         className="middle mt-14"
       >
-        <div className="flex flex-row justify-center gap-10 mobile:mb-10 mobile:gap-3">
+        <div className="flex flex-row justify-center gap-10 middle2">
           <div>
             <a class="btn" href="https://github.com/nimishmedatwal" target="_blank">
               <i class="fab fa-github"></i>
