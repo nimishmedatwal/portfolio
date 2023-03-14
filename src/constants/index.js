@@ -62,7 +62,18 @@ const services = [
   },
 
 ];
+const contactus=[
+  {
+    name: "LinkedIn",
+  },
+  {
+    name: "Github",
+  },
+  {
+    name: "Resume",
+  },
 
+]
 const technologies = [
   {
     name: "HTML 5",
@@ -213,4 +224,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, contactus };
