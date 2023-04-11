@@ -17,6 +17,7 @@ import {
   docker,
   carrent,
   jobit,
+  Server,
   tripguide,
   threejs,
   mlsc,
@@ -155,6 +156,27 @@ const experiences = [
 
 
 const projects = [
+  {
+    name: "ServerScope",
+    description:
+      "Developed a mobile app that enables users to monitor and manage their remote servers in real-time. It leverages Apache Kafka for server-to-mobile communication, predicts server overload and adds a load balancer to prevent downtime, and provides historical data and analytics for informed decision-making. It is a powerful tool for ensuring server uptime, reliability, and user experience from anywhere.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Rust",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Server,
+    source_code_link: "https://github.com/nimishmedatwal/ServerScope",
+  },
   {
     name: "BEML Connect",
     description:

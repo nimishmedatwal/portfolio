@@ -20,7 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import Server from "./Server.png"
 import mlsc from "./company/mlsc.jpeg";
 import codingninja from "./company/codingninja.jpeg";
 import microsoft from "./company/microsoft.jpeg"
@@ -56,5 +56,6 @@ export {
   microsoft,
   carrent,
   jobit,
+  Server,
   tripguide,
 };
