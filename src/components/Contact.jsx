@@ -155,7 +155,7 @@ const Contact = () => {
             <p>Gmail</p>
           </div>
           <div>
-            <a class="btn" href="https://drive.google.com/file/d/1ooTwD80_hBJKqfvjP61qcFwrZfPeSeTd/view?usp=sharing" target="_blank">
+            <a class="btn" href="https://drive.google.com/file/d/1cKXVK2PBRO9UnQG7tBFuvXfPo7u9ztjJ/view?usp=sharing" target="_blank">
               <i class="	far fa-file-alt"></i>
             </a>
             <p>Resume</p>
